@@ -91,6 +91,7 @@
                         </div>
                         <div class="flex gap-2 w-full sm:w-auto shrink-0">
                             <button onclick="copyUrl('url-${idx}')" class="flex-1 sm:w-20 text-[10px] py-1 border gh-border rounded font-semibold hover:bg-gray-500/10 cursor-pointer">주소 복사</button>
+                            <a href="${cdnUrl}" download="${file.name}" class="flex-1 sm:w-20 text-[10px] py-1 bg-zinc-700 hover:bg-zinc-600 text-white rounded font-semibold text-center flex items-center justify-center cursor-pointer">다운로드</a>
                             <button onclick="openPreview('${cdnUrl}', '${file.name}')" class="flex-1 sm:w-20 text-[10px] py-1 bg-blue-500 text-white rounded font-semibold hover:bg-blue-600 cursor-pointer">미리보기</button>
                         </div>
                     `;
