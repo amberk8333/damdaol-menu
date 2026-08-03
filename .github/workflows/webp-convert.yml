@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'images/*.jpg'
+      - 'images/*.JPG'
       - 'images/*.jpeg'
       - 'images/*.png'
 
