@@ -3,9 +3,9 @@ name: Convert images to WebP
 on:
   push:
     paths:
-      - 'images/**/*.jpg'
-      - 'images/**/*.jpeg'
-      - 'images/**/*.png'
+      - 'images/*.jpg'
+      - 'images/*.jpeg'
+      - 'images/*.png'
 
 permissions:
   contents: write
